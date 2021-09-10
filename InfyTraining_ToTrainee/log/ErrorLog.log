@@ -1,0 +1,84 @@
+01-Jan-2021 15:34:57 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+01-Jan-2021 15:34:57 INFO - Finished Spring Data repository scanning in 108ms. Found 2 JPA repository interfaces.
+01-Jan-2021 15:34:58 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:34:58 INFO - HikariPool-1 - Starting...
+01-Jan-2021 15:34:59 INFO - HikariPool-1 - Start completed.
+01-Jan-2021 15:34:59 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-Jan-2021 15:34:59 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+01-Jan-2021 15:34:59 INFO - Triggering deferred initialization of Spring Data repositories…
+01-Jan-2021 15:34:59 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+01-Jan-2021 15:34:59 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01-Jan-2021 15:35:01 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-Jan-2021 15:35:01 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:35:01 INFO - Spring Data repositories initialized!
+01-Jan-2021 15:36:01 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:36:01 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:36:01 INFO - HikariPool-1 - Shutdown initiated...
+01-Jan-2021 15:39:13 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+01-Jan-2021 15:39:13 INFO - Finished Spring Data repository scanning in 103ms. Found 2 JPA repository interfaces.
+01-Jan-2021 15:39:14 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:39:14 INFO - HikariPool-1 - Starting...
+01-Jan-2021 15:39:15 INFO - HikariPool-1 - Start completed.
+01-Jan-2021 15:39:15 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-Jan-2021 15:39:15 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+01-Jan-2021 15:39:16 INFO - Triggering deferred initialization of Spring Data repositories…
+01-Jan-2021 15:39:16 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+01-Jan-2021 15:39:16 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01-Jan-2021 15:39:17 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-Jan-2021 15:39:17 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:39:17 INFO - Spring Data repositories initialized!
+01-Jan-2021 15:39:29 INFO - Application shutdown requested.
+01-Jan-2021 15:39:29 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:39:29 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:39:29 INFO - HikariPool-1 - Shutdown initiated...
+01-Jan-2021 15:39:38 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+01-Jan-2021 15:39:38 INFO - Finished Spring Data repository scanning in 109ms. Found 2 JPA repository interfaces.
+01-Jan-2021 15:39:39 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:39:39 INFO - HikariPool-1 - Starting...
+01-Jan-2021 15:39:40 INFO - HikariPool-1 - Start completed.
+01-Jan-2021 15:39:40 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-Jan-2021 15:39:40 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+01-Jan-2021 15:39:40 INFO - Triggering deferred initialization of Spring Data repositories…
+01-Jan-2021 15:39:40 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+01-Jan-2021 15:39:41 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01-Jan-2021 15:39:42 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-Jan-2021 15:39:42 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:39:42 INFO - Spring Data repositories initialized!
+01-Jan-2021 15:39:57 INFO - Application shutdown requested.
+01-Jan-2021 15:39:57 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:39:57 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:39:57 INFO - HikariPool-1 - Shutdown initiated...
+01-Jan-2021 15:40:05 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+01-Jan-2021 15:40:05 INFO - Finished Spring Data repository scanning in 113ms. Found 2 JPA repository interfaces.
+01-Jan-2021 15:40:06 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:40:06 INFO - HikariPool-1 - Starting...
+01-Jan-2021 15:40:07 INFO - HikariPool-1 - Start completed.
+01-Jan-2021 15:40:07 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-Jan-2021 15:40:07 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+01-Jan-2021 15:40:08 INFO - Triggering deferred initialization of Spring Data repositories…
+01-Jan-2021 15:40:08 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+01-Jan-2021 15:40:08 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01-Jan-2021 15:40:09 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-Jan-2021 15:40:09 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:40:10 INFO - Spring Data repositories initialized!
+01-Jan-2021 15:40:45 INFO - Application shutdown requested.
+01-Jan-2021 15:40:45 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:40:45 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:40:45 INFO - HikariPool-1 - Shutdown initiated...
+01-Jan-2021 15:40:53 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+01-Jan-2021 15:40:54 INFO - Finished Spring Data repository scanning in 145ms. Found 2 JPA repository interfaces.
+01-Jan-2021 15:40:55 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:40:55 INFO - HikariPool-1 - Starting...
+01-Jan-2021 15:40:56 INFO - HikariPool-1 - Start completed.
+01-Jan-2021 15:40:56 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+01-Jan-2021 15:40:56 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+01-Jan-2021 15:40:56 INFO - Triggering deferred initialization of Spring Data repositories…
+01-Jan-2021 15:40:57 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+01-Jan-2021 15:40:57 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+01-Jan-2021 15:40:58 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+01-Jan-2021 15:40:58 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:40:59 INFO - Spring Data repositories initialized!
+01-Jan-2021 15:41:07 INFO - Application shutdown requested.
+01-Jan-2021 15:41:07 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
+01-Jan-2021 15:41:07 INFO - Shutting down ExecutorService 'applicationTaskExecutor'
+01-Jan-2021 15:41:07 INFO - HikariPool-1 - Shutdown initiated...

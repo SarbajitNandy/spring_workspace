@@ -1,0 +1,32 @@
+create database ormdb;
+use ormdb;
+
+
+drop table customer;
+drop table plan;
+
+create table plan(
+plan_id integer primary key,
+plan_name varchar(50),
+local_rate integer,
+national_rate integer);
+
+insert into plan values(1,'IFY_60',60,60);
+insert into plan values(2,'IFY_10',10,20);
+insert into plan values(3,'IFY_30',30,60);
+
+
+
+create table customer(
+phone_no bigint primary key,
+name varchar(50),
+age integer,
+gender char,
+address varchar(50),
+plan_id integer references plan(plan_id)
+);
+
+insert into customer values(9009009001,'Mark',25,'M','Infy Chicago',1);
+insert into customer values(9009009002,'Steve',56,'M','Infy Texas',2);
+insert into customer values(9009009003,'Linda',23,'F','Infy NY',3);
+

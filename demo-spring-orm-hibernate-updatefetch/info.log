@@ -1,0 +1,7 @@
+[main] INFO  com.infytel.Client  - Viewing All Customer Details
+[main] INFO  com.infytel.Client  - Customer [phoneNumber=9022713762, name=Lucy, age=27, gender=F, address=MUMBAI, planId=3]
+[main] INFO  com.infytel.Client  - Customer [phoneNumber=9022713761, name=Robert, age=27, gender=M, address=PUNE, planId=2]
+[main] INFO  com.infytel.Client  - Customer [phoneNumber=9022713760, name=Debashis, age=27, gender=M, address=BBSR, planId=1]
+[main] INFO  com.infytel.Client  - Display completed
+[main] INFO  com.infytel.Client  - 
+[main] INFO  com.infytel.Client  - Let's update a Customer with new Address details

@@ -1,0 +1,175 @@
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: resources\application.properties (The system cannot find the path specified)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.infosys.repository.EmployeeDAOImpl.insertEmployee(EmployeeDAOImpl.java:27)
+	at com.infosys.service.EmployeeServiceImpl.insert(EmployeeServiceImpl.java:14)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.EmployeeDAOImpl.insertEmployee(EmployeeDAOImpl.java:54)
+	at com.infosys.service.EmployeeServiceImpl.insert(EmployeeServiceImpl.java:14)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - classpath:application.properties (The system cannot find the file specified)
+java.io.FileNotFoundException: classpath:application.properties (The system cannot find the file specified)
+	at java.io.FileInputStream.open(FileInputStream.java:195)
+	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+	at com.infosys.repository.EmployeeDAOImpl.insertEmployee(EmployeeDAOImpl.java:27)
+	at com.infosys.service.EmployeeServiceImpl.insert(EmployeeServiceImpl.java:14)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - 
+java.lang.NullPointerException
+	at com.infosys.repository.EmployeeDAOImpl.insertEmployee(EmployeeDAOImpl.java:54)
+	at com.infosys.service.EmployeeServiceImpl.insert(EmployeeServiceImpl.java:14)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - Column count doesn't match value count at row 1
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:965)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2124)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2058)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5158)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2043)
+	at com.infosys.repository.EmployeeDAOImpl.insertEmployee(EmployeeDAOImpl.java:46)
+	at com.infosys.service.EmployeeServiceImpl.insert(EmployeeServiceImpl.java:14)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:41)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] INFO  com.infosys.repository.EmployeeDAOImpl  - Record inserted
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Record inserted successfully
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] ERROR com.infosys.repository.EmployeeDAOImpl  - Unknown column 'empid' in 'where clause'
+com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'empid' in 'where clause'
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:944)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3978)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3914)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2530)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2683)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2495)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1903)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2124)
+	at com.mysql.jdbc.PreparedStatement.executeUpdateInternal(PreparedStatement.java:2058)
+	at com.mysql.jdbc.PreparedStatement.executeLargeUpdate(PreparedStatement.java:5158)
+	at com.mysql.jdbc.PreparedStatement.executeUpdate(PreparedStatement.java:2043)
+	at com.infosys.repository.EmployeeDAOImpl.removeEmployee(EmployeeDAOImpl.java:77)
+	at com.infosys.service.EmployeeServiceImpl.delete(EmployeeServiceImpl.java:19)
+	at com.infosys.Demo1JdbcApiApplication.run(Demo1JdbcApiApplication.java:51)
+	at org.springframework.boot.SpringApplication.callRunner(SpringApplication.java:784)
+	at org.springframework.boot.SpringApplication.callRunners(SpringApplication.java:768)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:322)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1226)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1215)
+	at com.infosys.Demo1JdbcApiApplication.main(Demo1JdbcApiApplication.java:19)
+[main] INFO  com.infosys.Demo1JdbcApiApplication  -  Record Deleted 
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] INFO  com.infosys.Demo1JdbcApiApplication  -  Record Deleted 
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - 1: Insert new Employee
+2: Delete an employee 
+3: exit
+[main] INFO  com.infosys.Demo1JdbcApiApplication  - Enter your choice:
+
+[main] ERROR com.infytel.repository.CustomerDAOImpl  - resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infytel.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:20)
+	at com.infytel.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:12)
+	at com.infytel.ClientApplication.main(ClientApplication.java:15)
+[main] ERROR com.infytel.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infytel.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:48)
+	at com.infytel.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:12)
+	at com.infytel.ClientApplication.main(ClientApplication.java:15)
+[main] ERROR com.infytel.repository.CustomerDAOImpl  - resources\application.properties (The system cannot find the path specified)
+java.io.FileNotFoundException: resources\application.properties (The system cannot find the path specified)
+	at java.base/java.io.FileInputStream.open0(Native Method)
+	at java.base/java.io.FileInputStream.open(FileInputStream.java:219)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:157)
+	at java.base/java.io.FileInputStream.<init>(FileInputStream.java:112)
+	at com.infytel.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:20)
+	at com.infytel.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:12)
+	at com.infytel.ClientApplication.main(ClientApplication.java:15)
+[main] ERROR com.infytel.repository.CustomerDAOImpl  - 
+java.lang.NullPointerException
+	at com.infytel.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:48)
+	at com.infytel.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:12)
+	at com.infytel.ClientApplication.main(ClientApplication.java:15)
+[main] ERROR com.infytel.repository.CustomerDAOImpl  - Column count doesn't match value count at row 1
+java.sql.SQLException: Column count doesn't match value count at row 1
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:129)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1092)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdateInternal(ClientPreparedStatement.java:1040)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeLargeUpdate(ClientPreparedStatement.java:1347)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeUpdate(ClientPreparedStatement.java:1025)
+	at com.infytel.repository.CustomerDAOImpl.insert(CustomerDAOImpl.java:41)
+	at com.infytel.service.CustomerServiceImpl.insert(CustomerServiceImpl.java:12)
+	at com.infytel.ClientApplication.main(ClientApplication.java:15)

@@ -1,0 +1,15 @@
+26-Dec-2020 18:35:21 INFO - Bootstrapping Spring Data JPA repositories in DEFERRED mode.
+26-Dec-2020 18:35:22 INFO - Finished Spring Data repository scanning in 228ms. Found 1 JPA repository interfaces.
+26-Dec-2020 18:35:25 INFO - Initializing ExecutorService 'applicationTaskExecutor'
+26-Dec-2020 18:35:25 INFO - HikariPool-1 - Starting...
+26-Dec-2020 18:35:26 INFO - HikariPool-1 - Start completed.
+26-Dec-2020 18:35:27 INFO - HHH000204: Processing PersistenceUnitInfo [name: default]
+26-Dec-2020 18:35:27 INFO - HHH000412: Hibernate ORM core version 5.4.17.Final
+26-Dec-2020 18:35:29 INFO - Triggering deferred initialization of Spring Data repositories…
+26-Dec-2020 18:35:30 INFO - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+26-Dec-2020 18:35:30 INFO - HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+26-Dec-2020 18:35:31 INFO - HHH000398: Explicit segment value for id generator [hibernate_sequences.sequence_name] suggested; using default [default]
+26-Dec-2020 18:35:32 INFO - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+26-Dec-2020 18:35:32 INFO - Initialized JPA EntityManagerFactory for persistence unit 'default'
+26-Dec-2020 18:35:32 INFO - Spring Data repositories initialized!
+26-Dec-2020 18:36:32 INFO - Closing JPA EntityManagerFactory for persistence unit 'default'
