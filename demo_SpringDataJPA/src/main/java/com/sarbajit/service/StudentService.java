@@ -4,11 +4,17 @@ import java.util.NoSuchElementException;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Page;
+import org.springframework.data.domain.Pageable;
+import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
 
 import com.sarbajit.dto.StudentDto;
 import com.sarbajit.entity.Student;
 import com.sarbajit.repository.StudentRepository;
+
+import java.util.ArrayList;
+import java.util.List;
 
 @Service
 public class StudentService {
@@ -46,4 +52,51 @@ public class StudentService {
 			throw e;
 		}	
 	}
+	
+	public List<StudentDto> findAll() throws NoSuchElementException{
+		
+		List<Student> sAll=  studentRepo.findAll();	
+		List<StudentDto> st = new ArrayList<>();
+		
+		for(Student s : sAll ) {
+			st.add(Student.createStudentDto(s));
+		}
+			
+		return st;
+	}
+	
+	public List<StudentDto> findAll(Pageable page) {
+		Iterable<Student> it= studentRepo.findAll(page);
+		List<StudentDto> sAll = new ArrayList<>();
+		
+		for(Student s : it) {
+			sAll.add(Student.createStudentDto(s));
+		}
+		
+		return sAll;
+	}
+	
+	public List<StudentDto> findAll(Sort sort) {
+		Iterable<Student> it= studentRepo.findAll(sort);
+		List<StudentDto> sAll = new ArrayList<>();
+		
+		for(Student s : it) {
+			sAll.add(Student.createStudentDto(s));
+		}
+		
+		return sAll;
+	}
+	
+	public StudentDto updateById(StudentDto std) throws NoSuchElementException{
+		Student s = StudentDto.createStudentEntity(std);
+		try {
+			findById(s.getId());
+			studentRepo.save(s);
+			return std;
+		} catch (NoSuchElementException e) {
+			System.out.println(s.getId() + " id not found");
+			throw e;
+		}
+	}
+
 }
