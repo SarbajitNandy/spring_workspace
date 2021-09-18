@@ -44,13 +44,22 @@ public class DemoSpringDataJpaApplication implements CommandLineRunner {
 		
 //		Pageable pg = PageRequest.of(0, 2);
 		
+//		// Pagination and Sorting
+//		List<StudentDto> sAll = studentService.findAll(Sort.by(Sort.Direction.DESC, "sname"));
+//		
+//		System.out.println("All Students");
+//		for(StudentDto sI : sAll) {
+//			System.out.println(sI);
+//		}
 		
-		List<StudentDto> sAll = studentService.findAll(Sort.by(Sort.Direction.DESC, "sname"));
+		// Query creation based on the method name.
+		List<StudentDto> sAll = studentService.findBySnameAndDept("","IT");
 		
-		System.out.println("All Students");
+		System.out.println("Total Number of Students " + sAll.size());
 		for(StudentDto sI : sAll) {
 			System.out.println(sI);
-		}
+		}		
+		
 		
 	}
 

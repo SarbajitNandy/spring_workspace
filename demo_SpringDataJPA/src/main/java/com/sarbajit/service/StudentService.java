@@ -98,5 +98,35 @@ public class StudentService {
 			throw e;
 		}
 	}
+	
+	public List<StudentDto> findByName(String name) {
+		List<Student> st = studentRepo.findBySname(name);
+		List<StudentDto> sAll = new ArrayList<>();
+		for(Student s : st) {
+			sAll.add(Student.createStudentDto(s));
+		}
+		
+		return sAll;
+	}
+	
+	public List<StudentDto> findByDept(String dept) {
+		List<Student> st = studentRepo.findByDept(dept);
+		List<StudentDto> sAll = new ArrayList<>();
+		for(Student s : st) {
+			sAll.add(Student.createStudentDto(s));
+		}
+		
+		return sAll;
+	}
+	
+	public List<StudentDto> findBySnameAndDept(String name,String dept) {
+		List<Student> st = studentRepo.findBySnameAndDept(name,dept);
+		List<StudentDto> sAll = new ArrayList<>();
+		for(Student s : st) {
+			sAll.add(Student.createStudentDto(s));
+		}
+		
+		return sAll;
+	}
 
 }
