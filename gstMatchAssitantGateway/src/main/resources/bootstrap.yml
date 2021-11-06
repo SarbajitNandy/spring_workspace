@@ -1,0 +1,9 @@
+server:
+ port: 9000
+
+spring:
+  application:
+    name: gstMatchGatewayMS
+  cloud:
+    consul:
+      host: 127.0.0.1

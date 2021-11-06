@@ -37,8 +37,6 @@ public class StudentService {
 			System.out.println(studentId + " doesn't exists");
 			throw e;
 		}
-		
-		
 	}
 	
 	public int delete(int studentId) throws NoSuchElementException{
